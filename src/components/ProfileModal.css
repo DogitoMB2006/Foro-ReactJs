@@ -1,0 +1,48 @@
+.profile-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .profile-modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .profile-modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-modal label {
+    margin-bottom: 10px;
+  }
+  
+  .profile-modal input[type="text"],
+  .profile-modal textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .profile-modal input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  .profile-modal .photo-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,141 @@
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .forums-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    color: #ff5252;
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+  
+  .create-forum-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5252;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .create-forum-button:hover {
+    background-color: #ff1744;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px); 
+  }
+  
+  .modal-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease; 
+  }
+  
+  .modal-enter {
+    transform: translateY(-100%);
+  }
+  
+  .modal-enter-active {
+    transform: translateY(0%);
+  }
+  
+  .modal-exit {
+    transform: translateY(0%);
+  }
+  
+  .modal-exit-active {
+    transform: translateY(-100%);
+  }
+  
+  .modal h2 {
+    color: #ff5252;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal input,
+  .modal textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #e0e0e0;
+  }
+  
+  .modal button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5252;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal button[type="submit"]:hover {
+    background-color: #ff1744;
+  }
+  
+  .forums-list .forum-item {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #222;
+    margin-bottom: 10px;
+    position: relative; /* Para posicionar correctamente el botón de eliminar */
+  }
+  
+  .forum-item h2 {
+    color: #ff5252;
+  }
+  
+  .forum-item p {
+    margin: 10px 0;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según sea necesario */
+    right: 10px; /* Ajusta la posición horizontal según sea necesario */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    width: 24px; /* Tamaño del ícono de la papelera */
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  .delete-button:hover .delete-icon {
+    filter: brightness(80%); /* Cambia el brillo del ícono al hacer hover */
+  }
+  
