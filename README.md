@@ -1,4 +1,4 @@
-# Foro Dogito!
+# Forum Dogito!
 
 Version 1.0
 
