@@ -2,9 +2,8 @@
 
 Version 1.0
 
+you can register with an email, and you can also log in using your email!
 
-permite registrarse y logearse
+you can create forums!
 
-permite poder agregar foros
-
-proximamente poder agregar su perfil, foto y descripcion.
+I'm currently developing the ability to personalize your profile, descrpition, username too!
